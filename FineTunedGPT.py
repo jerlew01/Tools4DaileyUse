@@ -1,3 +1,7 @@
+#code will run on a url that can be used anywher
+#will read pdfs in local 'docs' folder and will first go through that then send to gpt3 16k to do the work
+#any request will be more sophisicated and be as current and up to date as the current and up to date the pdfs are
+
 from openai import ChatCompletion
 from gpt_index import SimpleDirectoryReader, GPTListIndex, GPTSimpleVectorIndex, LLMPredictor, PromptHelper
 from langchain.chat_models import ChatOpenAI
